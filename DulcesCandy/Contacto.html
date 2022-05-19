@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <!-- Importaciones, Relaciones y Scripts -->
+	<meta charset="utf-8">
+	<title>Dulces Candy</title>
+	<link rel="stylesheet" type="text/css" href="Contacto.css">
+	<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-KyZXEAg3QhqLMpG8r+8fhAXLRk2vvoC2f3B09zVXn8CA5QIVfZOJ3BCsw2P0p/We" crossorigin="anonymous">
+	<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-U1DAWAznBHeqEIlVSCgzq+c9gqGAJn5c/t99JyeKa9xxaYpSvHU5awsuZVVFIhvj" crossorigin="anonymous"></script>
+	<script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.3/dist/umd/popper.min.js" integrity="sha384-eMNCOe7tC1doHpGoWe/6oMVemdAVTMs2xqW4mwXrXsW0L84Iytr2wi5v2QjrP/xp" crossorigin="anonymous"></script>
+	<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/js/bootstrap.min.js" integrity="sha384-cn7l7gDp0eyniUwwAZgrzD06kc/tftFf19TOAs2zVinnD/C7E91j9yyk5//jjpt/" crossorigin="anonymous"></script> 
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+</head>
+<body>
+  <!-- Barra De Navegacion -->
+	<nav class="navbar navbar-expand-lg navbar-light bg-light">
+  <div class="container-fluid">
+    <a class="navbar-brand" href="#">DulcesCandy</a>
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarNav">
+      <ul class="navbar-nav">
+        <li class="nav-item">
+          <a class="nav-link active" aria-current="page" href="index.html">Inicio</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="Galeria.html">Galeria</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="servicios.html">Servicio</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="acercade.html">Acerca De</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#">Contacto</a>
+        </li>
+        <li>
+        <a href="https://www.instagram.com/dulcecandy07_/"><i class="fa fa-instagram" aria-hidden="true"></i></a>
+        </li>
+        <li>
+        <a href="https://wa.me/+541139292658?text=%20Hola!%20@Dulces Candy!%20"><i class="fa fa-comments" aria-hidden="true"></i></a>
+        </li>
+          <li>
+        <a href="https://www.facebook.com/candela.salinas.129"><i class="fa fa-facebook" aria-hidden="true"></i></a>
+          </li>
+      </ul>
+    </div>
+  </div>
+</nav>
+
+<!-- Formulario En Metodo Post Con PHPMailer -->
+	<form action="enviar.php" method="POST" class="frm">
+  <div class="mb-3">
+    <label for="email" class="form-label">Email</label>
+    <input type="email" name="email" class="form-control" id="email" aria-describedby="emailHelp" placeholder="Tu e-mail">
+    <div id="emailHelp" class="form-text">No compartiremos tu e-mail con nadie</div>
+  </div>
+  <div class="mb-3">
+  <label for="mensaje" class="form-label">Mensaje</label>
+  <textarea class="form-control" id="mensaje" rows="3" placeholder="Escriba su mensaje" name="mensaje"></textarea>
+	</div>
+  <button type="submit" name="submit" class="btn btn-primary">Enviar</button>
+</form>
+
+<!-- Iframe Google Maps -->
+<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d4132.5632104075385!2d-58.67870457977433!3d-34.70473504154251!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x95bcc11c4f350da7%3A0x1ce3872f8f53216c!2sBellini%201950%2C%20B1716DWF%20Libertad%2C%20Provincia%20de%20Buenos%20Aires!5e0!3m2!1sen!2sar!4v1631171173726!5m2!1sen!2sar" width="100%" height="400px" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+
+<!-- Footer -->
+<div class="footer-basic">
+        <footer>
+            <div class="social"><a href="https://www.instagram.com/dulcecandy07_/"><i class="fa fa-instagram"></i></a><a href="https://wa.me/+541139292658?text=%20Hola!%20@Dulces Candy!%20"><i class="fa fa-comments"></i></a><a href="https://www.facebook.com/candela.salinas.129"><i class="fa fa-facebook"></i></a></div>
+            <p class="copyright">Dulces Candy © 2018 - Grupo 2 I.S.F.T 177</p>
+        </footer>
+    </div>
+
+</body>
+</html>
